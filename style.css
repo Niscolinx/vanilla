@@ -21,6 +21,6 @@ body{
     display: grid;
     justify-self: center;
     outline: none;
-    border: none;
     padding: .7rem 1rem;
+    border: 1px solid black;
 }
