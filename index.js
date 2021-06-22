@@ -1,7 +1,5 @@
 const form = document.getElementById('form')
 
-
-
 form.addEventListener('submit', (e) => {
 
     e.preventDefault()
@@ -9,6 +7,18 @@ form.addEventListener('submit', (e) => {
     const formData = new FormData(e.target);
     const formProps = Object.fromEntries(formData)
 
-    console.log(formProps)
+    //Note: Formprops elements must match the names of your input field specified in the html file
+
+    if (formProps.firstname === '') {
+        //Do anything you want here
+
+        console.log('firstname cannot be empty')
+    }
+    if (formProps.lastname === '') {
+        //Do anything you want here
+
+        console.log('lastname cannot be empty')
+    }
+        
 })
 
