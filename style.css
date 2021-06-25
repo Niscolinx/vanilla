@@ -20,7 +20,9 @@ body{
 input:in-range{
     background-color: green;
 }
-
+input:out-of-range{
+    background: red;
+}
 
 
 .form button {
