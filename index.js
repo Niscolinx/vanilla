@@ -19,6 +19,8 @@ form.addEventListener('submit', (e) => {
 
         console.log('lastname cannot be empty')
     }
+
+    console.log('No errors')
         
 })
 

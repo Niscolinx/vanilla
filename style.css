@@ -17,6 +17,12 @@ body{
     margin: 1rem;
 }
 
+input:in-range{
+    background-color: green;
+}
+
+
+
 .form button {
     display: grid;
     justify-self: center;
